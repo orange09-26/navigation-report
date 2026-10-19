@@ -259,7 +259,7 @@ G_t=\begin{cases}
 1.00, & \text{子目标与上一步相同，或上一步子目标已到达}\\
 0.75, & \text{上一步子目标已失效}\\
 0.00, & \text{无理由更换子目标}\\
-0.50, & \text{未解析出 \texttt{<SUBGOAL>}}
+0.50, & \text{未解析出 SUBGOAL 标签}
 \end{cases}
 $$
 
