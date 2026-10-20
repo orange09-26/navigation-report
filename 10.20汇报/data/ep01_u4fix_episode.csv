@@ -1,2 +1,0 @@
-episode,success,reason,shortest,actual,steps,osr,ne,ap,ds_mean,coverage,stuck_steps,guard_count,stop_rejected,llm_calls,fallback_steps,revisit_max,seed,grid,start,goal,end_pose,wall_sec
-1,True,reached_goal,15,15,24,True,0,0.7060220665690996,0.7890041666666666,0.8620689655172413,0,0,0,24,0,1,20240945,15x15,"10,3","3,11","3,11,SOUTH",916.7
