@@ -63,6 +63,25 @@ $$\mathrm{score}(f)=d_{\mathrm{known}}(q_t,f)+\lVert f-g\rVert_1,\qquad f\in F_t
 
 关于"什么情况下放弃当前路线"：每步都会基于当时已知的地图重新计算 frontier 与三个锚点。出现以下任一情况时，规则要求模型放弃当前锚点，改走 ANCHOR_2：当前锚点在已知图上已不可达；该锚点被证明是死胡同；该锚点已经走到；该锚点已从 frontier 中消失。若 ANCHOR_2 同样失效，则依次尝试 ANCHOR_3；三者都失效时，模型从新的 frontier 清单中重新选择。候选顺序由 U1 的两项和决定，即已观测图上到该格的步数加上该格到终点的曼哈顿距离，数值越小越优先，两项等权，不存在百分比权重。
 
+以下为 ep01 第 10 步提示词中的实际片段（节选）：
+
+```
+## [v3-U1] Anchor sub-goals (ranked on the OBSERVED graph only)
+  ANCHOR_1: Place 31 at cell (6,8) | d_known=3 | manhattan_to_goal=6 | score=9
+  ANCHOR_2: Place 27 at cell (6,7) | d_known=2 | manhattan_to_goal=7 | score=9
+  ANCHOR_3: Place 34 at cell (7,8) | d_known=2 | manhattan_to_goal=7 | score=9
+bearing to destination in plain words: on your front-left (4 cells south, 5 cells west)
+
+## [v3-U2] Unexplored routes you must take into account
+total frontier cells (observed but NEVER visited) = 31
+NORTH (right): adjacent=FREE_ALREADY_VISITED, unexplored_in_that_direction=19
+EAST  (back):  adjacent=FREE_NEVER_VISITED,    unexplored_in_that_direction=22
+SOUTH (left):  adjacent=FREE_NEVER_VISITED,    unexplored_in_that_direction=8
+WEST  (front): adjacent=FREE_NEVER_VISITED,    unexplored_in_that_direction=6
+```
+
+该例中三个候选的分数相同，均为 9，说明存在并列情形；此时按坐标顺序取前三。规则要求优先前往 ANCHOR_1，但允许在一号失效时改用二号或三号。
+
 **U3 卡死检测与两级响应。** 三个检测器分别刻画震荡、重复访问与停滞：
 
 $$
