@@ -1,0 +1,297 @@
+{
+  "aggregate": {
+    "mapgpt": {
+      "N": 8,
+      "SR": 0.125,
+      "SPL": 0.125,
+      "SPL_succ_only": 1.0,
+      "NE": 10.75,
+      "AP": 0.07742267694148204,
+      "AP_LLM_LEGACY": 0.3981383331953923,
+      "COV": 0.30032471306615105,
+      "LLM_CALLS": 596,
+      "CALLS_PER_MAP": 74.5,
+      "STEPS": 596,
+      "RECOVERIES": 0,
+      "VETOS": 0,
+      "WALL_SEC": 5931.599999999999
+    },
+    "fused_step": {
+      "N": 8,
+      "SR": 0.125,
+      "SPL": 0.05952380952380952,
+      "SPL_succ_only": 0.47619047619047616,
+      "NE": 12.25,
+      "AP": 0.621368892056282,
+      "AP_LLM_LEGACY": 0.40405932844660175,
+      "COV": 0.3908058579671708,
+      "LLM_CALLS": 623,
+      "CALLS_PER_MAP": 77.875,
+      "STEPS": 623,
+      "RECOVERIES": 0,
+      "VETOS": 0,
+      "WALL_SEC": 7153.7
+    },
+    "topo_waypoint": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.5293751583845924,
+      "SPL_succ_only": 0.7058335445127898,
+      "NE": 2.25,
+      "AP": 0.07579667825234063,
+      "AP_LLM_LEGACY": 0.4388904844741629,
+      "COV": 0.6416407916575435,
+      "LLM_CALLS": 117,
+      "CALLS_PER_MAP": 14.625,
+      "STEPS": 548,
+      "RECOVERIES": 0,
+      "VETOS": 0,
+      "WALL_SEC": 1322.8
+    },
+    "matrix_waypoint": {
+      "N": 8,
+      "SR": 0.625,
+      "SPL": 0.4279255831887411,
+      "SPL_succ_only": 0.6846809331019857,
+      "NE": 3.125,
+      "AP": 0.7355993285181692,
+      "AP_LLM_LEGACY": 0.38414530555645254,
+      "COV": 0.6094456276293746,
+      "LLM_CALLS": 129,
+      "CALLS_PER_MAP": 16.125,
+      "STEPS": 563,
+      "RECOVERIES": 0,
+      "VETOS": 0,
+      "WALL_SEC": 1486.4
+    },
+    "fused_waypoint": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.5433611723706063,
+      "SPL_succ_only": 0.7244815631608085,
+      "NE": 1.875,
+      "AP": 0.6858529316901886,
+      "AP_LLM_LEGACY": 0.41432646234340353,
+      "COV": 0.6041636249833799,
+      "LLM_CALLS": 116,
+      "CALLS_PER_MAP": 14.5,
+      "STEPS": 536,
+      "RECOVERIES": 0,
+      "VETOS": 0,
+      "WALL_SEC": 1340.8
+    },
+    "risk_waypoint": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.563898159892888,
+      "SPL_succ_only": 0.7518642131905174,
+      "NE": 3.25,
+      "AP": 0.7295796244354378,
+      "AP_LLM_LEGACY": 0.4779551670638236,
+      "COV": 0.567099377562382,
+      "LLM_CALLS": 108,
+      "CALLS_PER_MAP": 13.5,
+      "STEPS": 523,
+      "RECOVERIES": 2,
+      "VETOS": 1,
+      "WALL_SEC": 1231.9
+    }
+  },
+  "paired_vs_mapgpt": {
+    "fused_step": {
+      "n_pairs": 8,
+      "delta_spl": -0.06547619047619048,
+      "delta_spl_ci95": [
+        -0.375,
+        0.17857142857142855
+      ],
+      "delta_ap": 0.5439462151147999,
+      "delta_ap_ci95": [
+        0.47184157346053046,
+        0.6160779515358039
+      ],
+      "delta_ap_legacy": 0.005920995251209409,
+      "delta_ap_legacy_ci95": [
+        -0.030208068632711523,
+        0.04939209224874362
+      ],
+      "delta_sr": 0,
+      "delta_sr_ci95": [
+        -0.375,
+        0.375
+      ],
+      "delta_calls": 3.375,
+      "sr_wins_ties_losses": [
+        1,
+        6,
+        1
+      ],
+      "spl_wins_ties_losses": [
+        1,
+        6,
+        1
+      ],
+      "ap_wins_ties_losses": [
+        8,
+        0,
+        0
+      ]
+    },
+    "topo_waypoint": {
+      "n_pairs": 8,
+      "delta_spl": 0.40437515838459237,
+      "delta_spl_ci95": [
+        0.11372863247863248,
+        0.682710017969452
+      ],
+      "delta_ap": -0.001625998689141428,
+      "delta_ap_ci95": [
+        -0.031129398829378676,
+        0.032885587581157845
+      ],
+      "delta_ap_legacy": 0.040752151278770535,
+      "delta_ap_legacy_ci95": [
+        -0.02399901447816543,
+        0.11226254133801666
+      ],
+      "delta_sr": 0.625,
+      "delta_sr_ci95": [
+        0.25,
+        1
+      ],
+      "delta_calls": -59.875,
+      "sr_wins_ties_losses": [
+        5,
+        3,
+        0
+      ],
+      "spl_wins_ties_losses": [
+        5,
+        2,
+        1
+      ],
+      "ap_wins_ties_losses": [
+        2,
+        0,
+        6
+      ]
+    },
+    "matrix_waypoint": {
+      "n_pairs": 8,
+      "delta_spl": 0.3029255831887411,
+      "delta_spl_ci95": [
+        0.025219298245614044,
+        0.5986215538847117
+      ],
+      "delta_ap": 0.6581766515766873,
+      "delta_ap_ci95": [
+        0.5311463036758124,
+        0.7660244425957909
+      ],
+      "delta_ap_legacy": -0.01399302763893975,
+      "delta_ap_legacy_ci95": [
+        -0.08042045863120825,
+        0.047547682040894476
+      ],
+      "delta_sr": 0.5,
+      "delta_sr_ci95": [
+        0.125,
+        0.875
+      ],
+      "delta_calls": -58.375,
+      "sr_wins_ties_losses": [
+        4,
+        4,
+        0
+      ],
+      "spl_wins_ties_losses": [
+        4,
+        3,
+        1
+      ],
+      "ap_wins_ties_losses": [
+        8,
+        0,
+        0
+      ]
+    },
+    "fused_waypoint": {
+      "n_pairs": 8,
+      "delta_spl": 0.4183611723706063,
+      "delta_spl_ci95": [
+        0.11703541479484875,
+        0.7014329616923957
+      ],
+      "delta_ap": 0.6084302547487065,
+      "delta_ap_ci95": [
+        0.46708691109236755,
+        0.723604319940845
+      ],
+      "delta_ap_legacy": 0.01618812914801116,
+      "delta_ap_legacy_ci95": [
+        -0.034617548005243665,
+        0.06338479890289855
+      ],
+      "delta_sr": 0.625,
+      "delta_sr_ci95": [
+        0.25,
+        1
+      ],
+      "delta_calls": -60,
+      "sr_wins_ties_losses": [
+        5,
+        3,
+        0
+      ],
+      "spl_wins_ties_losses": [
+        5,
+        2,
+        1
+      ],
+      "ap_wins_ties_losses": [
+        8,
+        0,
+        0
+      ]
+    },
+    "risk_waypoint": {
+      "n_pairs": 8,
+      "delta_spl": 0.43889815989288794,
+      "delta_spl_ci95": [
+        0.1395902700702923,
+        0.7092890835579515
+      ],
+      "delta_ap": 0.6521569474939558,
+      "delta_ap_ci95": [
+        0.5160191239623741,
+        0.7703807579113675
+      ],
+      "delta_ap_legacy": 0.07981683386843126,
+      "delta_ap_legacy_ci95": [
+        0.005445799138919908,
+        0.1450135778196229
+      ],
+      "delta_sr": 0.625,
+      "delta_sr_ci95": [
+        0.25,
+        0.875
+      ],
+      "delta_calls": -61,
+      "sr_wins_ties_losses": [
+        5,
+        3,
+        0
+      ],
+      "spl_wins_ties_losses": [
+        5,
+        2,
+        1
+      ],
+      "ap_wins_ties_losses": [
+        8,
+        0,
+        0
+      ]
+    }
+  }
+}
