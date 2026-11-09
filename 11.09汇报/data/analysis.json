@@ -1,0 +1,246 @@
+{
+  "aggregate": {
+    "base100": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.5335203616965911,
+      "OSR": 0.75,
+      "NE": 2.75,
+      "COV": 0.6348791143734983,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 0,
+      "AP_UNSEEN_PRED": 0.6027375465055452,
+      "MAP_CONF": 0.7011210286199898,
+      "LLM_CALLS": 0
+    },
+    "anti_v3": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.5401870283632578,
+      "OSR": 0.75,
+      "NE": 3.875,
+      "COV": 0.6084856513771645,
+      "BUMPS": 0,
+      "RECOVERIES": 5,
+      "BRANCH_FAILURES": 5,
+      "AP_UNSEEN_PRED": 0.6032118123029164,
+      "MAP_CONF": 0.698932141880896,
+      "LLM_CALLS": 0
+    },
+    "map_pred": {
+      "N": 8,
+      "SR": 1.0,
+      "SPL": 0.7027663934426229,
+      "OSR": 1.0,
+      "NE": 0,
+      "COV": 0.6286757641525581,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.6501409814886748,
+      "MAP_CONF": 0.7016233075518901,
+      "LLM_CALLS": 0
+    },
+    "final": {
+      "N": 8,
+      "SR": 1.0,
+      "SPL": 0.7094330601092896,
+      "OSR": 1.0,
+      "NE": 0,
+      "COV": 0.6239765160322573,
+      "BUMPS": 0,
+      "RECOVERIES": 4,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.6490542580725217,
+      "MAP_CONF": 0.7013998554393412,
+      "LLM_CALLS": 0
+    },
+    "confidence_gate": {
+      "N": 8,
+      "SR": 0.875,
+      "SPL": 0.6335203616965911,
+      "OSR": 0.875,
+      "NE": 2.625,
+      "COV": 0.6162840730511843,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.6453032601525726,
+      "MAP_CONF": 0.700987101984849,
+      "LLM_CALLS": 0
+    },
+    "AP_oracle_diag": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.5206235362997658,
+      "OSR": 0.75,
+      "NE": 2.75,
+      "COV": 0.6624381694916085,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 5,
+      "AP_UNSEEN_PRED": 0.6569906467599169,
+      "MAP_CONF": 0.7038075259692815,
+      "LLM_CALLS": 0
+    },
+    "jitter_base": {
+      "N": 8,
+      "SR": 0.625,
+      "SPL": 0.5096180555555556,
+      "OSR": 0.625,
+      "NE": 2.875,
+      "COV": 0.5847904278645886,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.648315330559768,
+      "MAP_CONF": 0.7017476351139862,
+      "LLM_CALLS": 0
+    },
+    "jitter_anti": {
+      "N": 8,
+      "SR": 0.75,
+      "SPL": 0.592951388888889,
+      "OSR": 0.75,
+      "NE": 3.375,
+      "COV": 0.58179427783975,
+      "BUMPS": 0,
+      "RECOVERIES": 4,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.6480682017195637,
+      "MAP_CONF": 0.7017186563380466,
+      "LLM_CALLS": 0
+    },
+    "truth_mix25_diag": {
+      "N": 8,
+      "SR": 1.0,
+      "SPL": 0.7094330601092896,
+      "OSR": 1.0,
+      "NE": 0,
+      "COV": 0.6239765160322573,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.9408539339691134,
+      "MAP_CONF": 0.7025176004765578,
+      "LLM_CALLS": 0
+    },
+    "truth_mix50_diag": {
+      "N": 8,
+      "SR": 1.0,
+      "SPL": 0.7094330601092896,
+      "OSR": 1.0,
+      "NE": 0,
+      "COV": 0.6239765160322573,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 0.992783756465333,
+      "MAP_CONF": 0.7965270927101074,
+      "LLM_CALLS": 0
+    },
+    "truth_full_diag": {
+      "N": 8,
+      "SR": 1.0,
+      "SPL": 0.7059157440919737,
+      "OSR": 1.0,
+      "NE": 0,
+      "COV": 0.6239765160322573,
+      "BUMPS": 0,
+      "RECOVERIES": 0,
+      "BRANCH_FAILURES": 4,
+      "AP_UNSEEN_PRED": 1.0,
+      "MAP_CONF": 1.0,
+      "LLM_CALLS": 0
+    }
+  },
+  "paired_vs_base": {
+    "anti_v3": {
+      "delta_SPL": 0.006666666666666668,
+      "delta_SPL_ci95": [
+        0.0,
+        0.020000000000000004
+      ],
+      "delta_AP": 0.00047426579737118446,
+      "delta_AP_ci95": [
+        0.0,
+        0.0014087977412370056
+      ]
+    },
+    "map_pred": {
+      "delta_SPL": 0.16924603174603176,
+      "delta_SPL_ci95": [
+        -0.025793650793650785,
+        0.4285714285714286
+      ],
+      "delta_AP": 0.047403434983129655,
+      "delta_AP_ci95": [
+        -0.11010743587608865,
+        0.20397591992085717
+      ]
+    },
+    "final": {
+      "delta_SPL": 0.1759126984126984,
+      "delta_SPL_ci95": [
+        -0.019126984126984117,
+        0.43353174603174605
+      ],
+      "delta_AP": 0.046316711566976546,
+      "delta_AP_ci95": [
+        -0.11034570184582884,
+        0.2017901267245562
+      ]
+    },
+    "confidence_gate": {
+      "delta_SPL": 0.1,
+      "delta_SPL_ci95": [
+        0.0,
+        0.30000000000000004
+      ],
+      "delta_AP": 0.04256571364702734,
+      "delta_AP_ci95": [
+        -0.11154585018585866,
+        0.1995851754100334
+      ]
+    },
+    "AP_oracle_diag": {
+      "delta_SPL": -0.012896825396825393,
+      "delta_SPL_ci95": [
+        -0.03869047619047618,
+        0.0
+      ],
+      "delta_AP": 0.054253100254371786,
+      "delta_AP_ci95": [
+        -0.0963090642149344,
+        0.2070986034333857
+      ]
+    }
+  },
+  "jitter_delta": {
+    "SR": 0.125,
+    "SPL": 0.08333333333333337
+  },
+  "map_prediction_activation": {
+    "map_pred": {
+      "SR": 1.0,
+      "SPL": 0.7027663934426229,
+      "AP": 0.6501409814886748
+    },
+    "truth_mix25_diag": {
+      "SR": 1.0,
+      "SPL": 0.7094330601092896,
+      "AP": 0.9408539339691134
+    },
+    "truth_mix50_diag": {
+      "SR": 1.0,
+      "SPL": 0.7094330601092896,
+      "AP": 0.992783756465333
+    },
+    "truth_full_diag": {
+      "SR": 1.0,
+      "SPL": 0.7059157440919737,
+      "AP": 1.0
+    }
+  }
+}

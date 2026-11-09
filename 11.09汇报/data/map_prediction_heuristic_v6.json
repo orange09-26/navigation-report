@@ -1,0 +1,242 @@
+[
+  {
+    "map_id": "office_01",
+    "step": 5,
+    "unknown_cells": 417,
+    "ap_unseen": 0.6954436450839329,
+    "wall_f1": 0.8172661870503597,
+    "free_f1": 0.08633093525179857,
+    "balanced_accuracy": 0.6360092149565834,
+    "mean_confidence": 0.6904431602286577
+  },
+  {
+    "map_id": "office_01",
+    "step": 15,
+    "unknown_cells": 384,
+    "ap_unseen": 0.6458333333333334,
+    "wall_f1": 0.7763157894736842,
+    "free_f1": 0.15,
+    "balanced_accuracy": 0.5285714285714286,
+    "mean_confidence": 0.6987796194700803
+  },
+  {
+    "map_id": "office_01",
+    "step": 30,
+    "unknown_cells": 336,
+    "ap_unseen": 0.6607142857142857,
+    "wall_f1": 0.7790697674418605,
+    "free_f1": 0.2692307692307692,
+    "balanced_accuracy": 0.5410688180193838,
+    "mean_confidence": 0.7134196329334982
+  },
+  {
+    "map_id": "office_02",
+    "step": 5,
+    "unknown_cells": 414,
+    "ap_unseen": 0.6183574879227053,
+    "wall_f1": 0.7613293051359517,
+    "free_f1": 0.04819277108433735,
+    "balanced_accuracy": 0.4696718355571583,
+    "mean_confidence": 0.6794330847403177
+  },
+  {
+    "map_id": "office_02",
+    "step": 15,
+    "unknown_cells": 395,
+    "ap_unseen": 0.6835443037974683,
+    "wall_f1": 0.8085758039816233,
+    "free_f1": 0.08759124087591241,
+    "balanced_accuracy": 0.5864310954063604,
+    "mean_confidence": 0.67308102566448
+  },
+  {
+    "map_id": "office_02",
+    "step": 30,
+    "unknown_cells": 358,
+    "ap_unseen": 0.7178770949720671,
+    "wall_f1": 0.8296795952782462,
+    "free_f1": 0.17886178861788618,
+    "balanced_accuracy": 0.6126984126984127,
+    "mean_confidence": 0.678868092158514
+  },
+  {
+    "map_id": "loop_01",
+    "step": 5,
+    "unknown_cells": 415,
+    "ap_unseen": 0.7734939759036145,
+    "wall_f1": 0.8683473389355743,
+    "free_f1": 0.1896551724137931,
+    "balanced_accuracy": 0.6791638264030901,
+    "mean_confidence": 0.689366091520062
+  },
+  {
+    "map_id": "loop_01",
+    "step": 15,
+    "unknown_cells": 394,
+    "ap_unseen": 0.7538071065989848,
+    "wall_f1": 0.8554396423248882,
+    "free_f1": 0.17094017094017094,
+    "balanced_accuracy": 0.5776813880126184,
+    "mean_confidence": 0.6926847669888067
+  },
+  {
+    "map_id": "loop_01",
+    "step": 30,
+    "unknown_cells": 362,
+    "ap_unseen": 0.8232044198895028,
+    "wall_f1": 0.8971061093247589,
+    "free_f1": 0.37254901960784315,
+    "balanced_accuracy": 0.7101449275362319,
+    "mean_confidence": 0.6975560979801981
+  },
+  {
+    "map_id": "loop_02",
+    "step": 5,
+    "unknown_cells": 411,
+    "ap_unseen": 0.6690997566909975,
+    "wall_f1": 0.7976190476190477,
+    "free_f1": 0.09333333333333334,
+    "balanced_accuracy": 0.6085314685314686,
+    "mean_confidence": 0.6737833358921488
+  },
+  {
+    "map_id": "loop_02",
+    "step": 15,
+    "unknown_cells": 384,
+    "ap_unseen": 0.6770833333333334,
+    "wall_f1": 0.8006430868167203,
+    "free_f1": 0.1506849315068493,
+    "balanced_accuracy": 0.6131868131868132,
+    "mean_confidence": 0.6866495275041467
+  },
+  {
+    "map_id": "loop_02",
+    "step": 30,
+    "unknown_cells": 333,
+    "ap_unseen": 0.7657657657657657,
+    "wall_f1": 0.8617021276595744,
+    "free_f1": 0.23529411764705882,
+    "balanced_accuracy": 0.7264705882352941,
+    "mean_confidence": 0.6977927317175103
+  },
+  {
+    "map_id": "maze_01",
+    "step": 5,
+    "unknown_cells": 411,
+    "ap_unseen": 0.48905109489051096,
+    "wall_f1": 0.6167883211678832,
+    "free_f1": 0.23357664233576642,
+    "balanced_accuracy": 0.8415374677002584,
+    "mean_confidence": 0.6844210884223927
+  },
+  {
+    "map_id": "maze_01",
+    "step": 15,
+    "unknown_cells": 376,
+    "ap_unseen": 0.526595744680851,
+    "wall_f1": 0.6307053941908713,
+    "free_f1": 0.34074074074074073,
+    "balanced_accuracy": 0.8504365690806369,
+    "mean_confidence": 0.6967872050818769
+  },
+  {
+    "map_id": "maze_01",
+    "step": 30,
+    "unknown_cells": 341,
+    "ap_unseen": 0.5190615835777126,
+    "wall_f1": 0.6322869955156951,
+    "free_f1": 0.3050847457627119,
+    "balanced_accuracy": 0.825139146567718,
+    "mean_confidence": 0.6974969009344151
+  },
+  {
+    "map_id": "maze_02",
+    "step": 5,
+    "unknown_cells": 413,
+    "ap_unseen": 0.4721549636803874,
+    "wall_f1": 0.6064981949458483,
+    "free_f1": 0.19852941176470587,
+    "balanced_accuracy": 0.760872235872236,
+    "mean_confidence": 0.6896176138531398
+  },
+  {
+    "map_id": "maze_02",
+    "step": 15,
+    "unknown_cells": 393,
+    "ap_unseen": 0.4910941475826972,
+    "wall_f1": 0.5951417004048583,
+    "free_f1": 0.3150684931506849,
+    "balanced_accuracy": 0.7374822862541333,
+    "mean_confidence": 0.6934108658553001
+  },
+  {
+    "map_id": "maze_02",
+    "step": 30,
+    "unknown_cells": 343,
+    "ap_unseen": 0.5714285714285714,
+    "wall_f1": 0.6297229219143576,
+    "free_f1": 0.4913494809688581,
+    "balanced_accuracy": 0.7199744586985546,
+    "mean_confidence": 0.7174786419701211
+  },
+  {
+    "map_id": "trap_01",
+    "step": 5,
+    "unknown_cells": 407,
+    "ap_unseen": 0.4619164619164619,
+    "wall_f1": 0.6178010471204188,
+    "free_f1": 0.0912863070539419,
+    "balanced_accuracy": 0.8556169429097605,
+    "mean_confidence": 0.6858671068056942
+  },
+  {
+    "map_id": "trap_01",
+    "step": 15,
+    "unknown_cells": 383,
+    "ap_unseen": 0.5169712793733682,
+    "wall_f1": 0.6421663442940039,
+    "free_f1": 0.2570281124497992,
+    "balanced_accuracy": 0.903610771113831,
+    "mean_confidence": 0.6939472256531191
+  },
+  {
+    "map_id": "trap_01",
+    "step": 30,
+    "unknown_cells": 356,
+    "ap_unseen": 0.5589887640449438,
+    "wall_f1": 0.6518847006651884,
+    "free_f1": 0.39846743295019155,
+    "balanced_accuracy": 0.841763405196241,
+    "mean_confidence": 0.7023510020066387
+  },
+  {
+    "map_id": "trap_02",
+    "step": 5,
+    "unknown_cells": 412,
+    "ap_unseen": 0.5218446601941747,
+    "wall_f1": 0.6385321100917432,
+    "free_f1": 0.2939068100358423,
+    "balanced_accuracy": 0.800582627118644,
+    "mean_confidence": 0.6901749087955688
+  },
+  {
+    "map_id": "trap_02",
+    "step": 15,
+    "unknown_cells": 381,
+    "ap_unseen": 0.5065616797900262,
+    "wall_f1": 0.637065637065637,
+    "free_f1": 0.22950819672131148,
+    "balanced_accuracy": 0.827724358974359,
+    "mean_confidence": 0.6910230166721519
+  },
+  {
+    "map_id": "trap_02",
+    "step": 30,
+    "unknown_cells": 335,
+    "ap_unseen": 0.5432835820895522,
+    "wall_f1": 0.6514806378132119,
+    "free_f1": 0.33766233766233766,
+    "balanced_accuracy": 0.8136427566807314,
+    "mean_confidence": 0.6970454698338489
+  }
+]
