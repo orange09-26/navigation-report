@@ -1,0 +1,7 @@
+suite,condition,map_id,reason,shortest,actual,steps,remaining_to_goal,coverage,bumps,unique_cells,moved_cells,immediate_backtracks,max_edge_repeat
+25x25_80,results_v10_r3_large80_geom_re1,v8_maze_06,max_steps,55,52,80,3,0.6927536231884058,0,53,52,0,1
+25x25_80,results_v10_r3_large80_geom_re1,v8_trap_08,max_steps,49,58,80,5,0.6402439024390244,0,57,58,1,2
+27x27_80,results_v10_val2_geom_re1_80,v10_maze_02,max_steps,49,53,80,10,0.486284289276808,0,54,53,0,1
+27x27_80,results_v10_val2_geom_re1_80,v10_trap_01,max_steps,55,55,80,2,0.43636363636363634,0,56,55,0,1
+29x29_80,results_v10b_final_80,v10b_trap_02,max_steps,55,59,80,16,0.28735632183908044,0,50,59,1,2
+29x29_100,results_v10b_final_100,v10b_trap_02,max_steps,55,74,100,17,0.42758620689655175,0,65,74,1,2
